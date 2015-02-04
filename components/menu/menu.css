@@ -1,0 +1,4 @@
+.menu{
+    background: url('./navbg.png');
+}
+@import url(menuBtns.css?__inline);
