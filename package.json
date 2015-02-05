@@ -1,0 +1,26 @@
+{
+  "name": "wn-site",
+  "version": "0.0.1",
+  "description": "wn site template",
+  "keywords": [
+    "wn",
+    "wn-site"
+  ],
+  "author": "snail-team <passtom@foxmail.com>",
+  "homepage": "https://github.com/snail-team/wn-site",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/snail-team/wn-site.git"
+  },
+  "bugs": {
+    "url": "https://github.com/snail-team/wn-site/issues"
+  },
+  "license": "MIT",
+  "spm": {
+    "dependencies": {
+      "jquery": "1.8.3",
+      "wn-alice-nav": "0.0.2"
+    },
+    "ignore": ["dist"]
+  }
+}
