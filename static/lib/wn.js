@@ -68,7 +68,7 @@ var require,define;
         factoryMap[id]=factory;
     };
     require=function(id){
-        if(require.config.alias[id]){
+        if(require.config&&require.config.alias&&require.config.alias[id]){
             id=require.config.alias[id];
         }
         if(/\.css/g.test(id)){
